@@ -10,32 +10,34 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/academicons-1.9.4/css/academicons.min.css"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	<body class="is-preload">
 
 		<!-- Header -->
 			<section id="header">
 				<header>
-					<span class="image avatar"><img src="images/avatar.jpg" alt="" /></span>
-					<h1 id="logo"><a href="#">Willis Corto</a></h1>
-					<p>I got reprogrammed by a rogue AI<br />
-					and now I'm totally cray</p>
+					<span class="image avatar"><img src="images/Sebastian_profile_pic_compressed_square.jpg" alt="" /></span>
+					<h1 id="logo"><a href="#">Sebastian G. Wolf</a></h1>
+					<p>Postdoctoral researcher  <br> University of Bergen, Norway <br> <br> 
+						I am a geodynamicist using primarily numerical modelling to study how tectonics, surface processes and climate interact to shape our Earth.</p>
 				</header>
 				<nav id="nav">
 					<ul>
-						<li><a href="#one" class="active">About</a></li>
-						<li><a href="#two">Things I Can Do</a></li>
-						<li><a href="#three">A Few Accomplishments</a></li>
-						<li><a href="#four">Contact</a></li>
+						<li><a href="#one" class="active">About Me</a></li>
+						<li><a href="#two">Research</a></li>
+						<!-- <li><a href="#three">Recent Highlights</a></li> -->
+						<li><a href="#four">Publications</a></li>
+						<li><a href="#five">Contact and Links</a></li>
 					</ul>
 				</nav>
 				<footer>
 					<ul class="icons">
-						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-						<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						<li><a href="mailto:sebastian.ge.wolf@gmail.com" class="fa fa-envelope fa-2x"><span class="label"></span></a></li>
+						<li><a href="CV/CV_Sebastian.pdf" class="ai ai-cv ai-2x"><span class="label"></span></a></li>
+						<li><a href="https://scholar.google.com/citations?user=kti5mt8AAAAJ&hl=en" class="ai ai-google-scholar ai-2x"></a></li>
+						<li><a href="https://github.com/sebastianwolf" class="fa fa-github fa-2x"><span class="label"></span></a></li>
 					</ul>
 				</footer>
 			</section>
@@ -49,71 +51,151 @@
 						<!-- One -->
 							<section id="one">
 								<div class="image main" data-position="center">
-									<img src="images/banner.jpg" alt="" />
+									<img src="images/P1080251_top.jpg" alt="" />
 								</div>
 								<div class="container">
 									<header class="major">
-										<h2>Read Only</h2>
-										<p>Just an incredibly simple responsive site<br />
-										template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+										<h3>About Me</h3>
 									</header>
-									<p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum.</p>
+									<p>I am a postdoctoral researcher at the University of Bergen (Norway) in the Geodynamics and Basin Studies group. I’m generally excited by any geoscientific multi-physics problem that exhibits a true interaction of different processes. The tectonic-climate coupling on Earth is such a problem, that combines different fields of geosciences and different processes acting in different domains and on different timescales. My main interest is to understand and specifically quantify this exciting coupling that exists between tectonics, surface processes, and climate, and how it shapes our Earth. To achieve this goal, I primarily use and develop computational tools that combine the physics of tectonics and climate-driven surface processes.<br>
+
+									My background is in geodynamics, specifically the dynamics of ocean-continent subduction and continent-continent collsion. From these “deep” processes I gradually moved spatially upwards to include fluvial surface processes, to investigate the exciting interaction between tectonics and fluvial erosion. Most recently, I also started working with the dynamics of glaciers and glacial erosion, which provides one of the missing links to quantify the tectonic-climate coupling on Earth.</p>
 								</div>
 							</section>
 
 						<!-- Two -->
 							<section id="two">
 								<div class="container">
-									<h3>Things I Can Do</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer lorem ipsum dolor sit amet.</p>
-									<ul class="feature-icons">
-										<li class="icon solid fa-code">Write all the code</li>
-										<li class="icon solid fa-cubes">Stack small boxes</li>
-										<li class="icon solid fa-book">Read books and stuff</li>
-										<li class="icon solid fa-coffee">Drink much coffee</li>
-										<li class="icon solid fa-bolt">Lightning bolt</li>
-										<li class="icon solid fa-users">Shadow clone technique</li>
-									</ul>
+									<h3>Research</h3>
+									<h4>Coupling tectonic and surface processes models</h4>
+									<!-- <span class="image fit"><img src="images/Method.jpg" alt="" /></span> -->
+									<a href="images/Method.jpg" class="image fit"><img src="images/Method.jpg" alt="" /></a>
+
+									<p>In the last decade, modelling fluvial erosion and hillslope processes on geological timescales has become well established, so that stable, efficient, and computationally inexpensive numerical models and software packages based on the stream power law are now readily available. One such example of an efficient surface processes models is FastScape. Similar to the development of fluvial erosion models, thermo-mechanical modelling of lithosphere deformation and mantle processes with complex, non-linear rheologies has become readily available in the last decade in 2D and 3D. I developed the first coupling between the fluvial surface processes model FastScape and a thermo-mechanical model, specifically the 2D and 3D thermo-mechanical models FANTOM (2D) and pTatin3D (3D). These models allow me and my co-authors to investigate the complex and non-linear dynamics of the interaction between tectonics and climate-fueled fluvial erosion. 
+										<!-- 2D models investigate only a cross section through the Earth but can be run on a laptop and at very high spatial resolution (100s of metres). 3D modelling, in contrast, requires high performance computing with several thousand compute nodes, abd the high computational costs limit the maximum spatial resolution to few kms. -->
+									I recentely worked together with Guillaume Cordonnier, who developed a new algorithm to solve ice-flow in glaciers using unsupervised machine-learning-enhanced solvers, to build the first coupled tectonic-surface processes model that includes realistic glacial erosion. I'm very excited about this new tool as it opens a new research avenue that I plan to explore in the near future. </p>
+									<p>Collaborators: 
+										<a href="https://dmay.scrippsprofiles.ucsd.edu/">Dave A. May</a>, 
+										<a href="https://www-sop.inria.fr/members/Guillaume.Cordonnier/">Guillaume Cordonnier</a> </p> 
+
+									<h4>The interaction between surface processes and tectonics</h4>
+									<a href="images/Interact_SP_Tec.jpg" class="image fit"><img src="images/Interact_SP_Tec.jpg" alt="" /></a>
+									<p>One of the most exciting discoveries within geoscience over the last 30 years are the couplings and feedbacks that exist between surface processes, tectonics, and climate on Earth. However, the question of the nature and feedbacks of the interaction between climate-fuelled surface processes and tectonics has often been approached either from a surface processes perspective, or from a tectonic perspective. The coupled tectonic-surface processes models that I developed bridge this gap and allow investigating a real coupling between both domains. Using the coupled models, I demonstrated together with my co-authors the conditions under which either fluvial erosion or tectonics limit mountain belt height on Earth. To this end, we developed the new non-dimensional Beaumont number, and inferred the importance of tectonics versus surface processes in ten mountain belts on Earth. In very recent work, I investigated how Milankovich orbital forcings in climate influence the height and sediment flux in collisional orogens subject to fluvial erosion (in prep); ongoing collaborations expand on the coupled models to include other geodynamic contexts or more complexity in the surface processes.
+									</p>
+									<p>Collaborators: 
+										<a href="https://www.gfz-potsdam.de/en/staff/jean.braun/sec47">Jean Braun</a>,
+										<a href="https://www4.uib.no/en/find-employees/Ritske.S..Huismans">Ritske S. Huismans</a>,
+										<a href="https://grzy.cug.edu.cn/yuanxiaoping1/en/index.htm">Xiaoping Yuan</a>,
+										<a href="https://theunissen.h.uib.no/#/">Thomas Theunissen</a>
+										</p>
+
+									<h4>Geodynamics of continent-continent collision, ocean-continent subduction, continental rifting</h4>
+									<p>Plate tectonics </p>
+									<p>Collaborators: 
+										<a href="https://www.gfz-potsdam.de/en/staff/zoltan.erdoes/sec25">Zoltan Erdős</a>,
+										<a href="https://www4.uib.no/en/find-employees/Ritske.S..Huismans">Ritske S. Huismans</a>,
+										<a href="https://theunissen.h.uib.no/#/">Thomas Theunissen</a>
+									</p>
+									
+									<h4>Glacial erosion</h4>
+									<p>Collaborators:
+										<a href="https://www-sop.inria.fr/members/Guillaume.Cordonnier/">Guillaume Cordonnier</a>,
+										<a href="https://ericdealgeomorph.github.io/">Eric Deal</a>, 
+										<a href="https://www.gfz-potsdam.de/en/staff/jean.braun/sec47">Jean Braun</a>,
+										<a href="https://pure.au.dk/portal/en/persons/vkp%40geo.au.dk">Vivi Pedersen</a> 
+									</p>
+
+
 								</div>
 							</section>
 
 						<!-- Three -->
-							<section id="three">
+							<!-- <section id="three">
 								<div class="container">
-									<h3>A Few Accomplishments</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<h3>Recent Highlights</h3>
 									<div class="features">
 										<article>
 											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Coupling tectonics, glacial and fluvial erosion</h4>
+												<p>Recent model development.</p>
 											</div>
 										</article>
 										<article>
 											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
 											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
-											</div>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
-											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Tectonics or fluvial erosion - controls of mountain height on Earth</h4>
+												<p>Nature article.</p>
 											</div>
 										</article>
 									</div>
 								</div>
-							</section>
+							</section> -->
 
 						<!-- Four -->
-							<section id="four">
+						<section id="four">
+							<div class="container">
+								<h3>Publications</h3>
+								<div class="row">
+									<div class="col-12 col-12-xsmall">
+										<div class="col-12 col-12-xsmall">
+											<h4>Articles under review</h4>
+											<ul>
+												<li><b>Wolf, S. G.</b>, Huismans, R. S., Braun, J. 
+													“Tectonics or Surface Processes during orogenesis - the Beaumont number: I. Exploring the parameter space”, <b>JGR Solid Earth</b>, under review</li>
+												<li><b>Wolf, S. G.</b>, Huismans, R. S., Braun, J. 
+													“Tectonics or Surface Processes during orogenesis - the Beaumont number: II. Application to orogens on Earth”, <b>JGR Solid Earth</b>, under review</li>
+												<li>Erdős, Z., Huismans, R. S., <b>Wolf, S. G.</b>, Faccenna, C. “Terrane accretion explains thin and hot ocean-continent back-arcs”, <b>Science Advances</b>, under review</li>
+											</ul>									
+										</div>
+										<h4>Published research articles</h4>
+										<ul>
+											<li>Yuan, X. , Li, Y. Q., Brune, S., Li, L., Pons, M., <b>Wolf, S. G.</b> 
+												“Coordination between deformation, orographic precipitation, and erosion during orogenic growth”, <b>Nature Communications</b>, accepted</li>
+											<li>Yuan, X.P., Jiao, R., Liu-Zeng, J., Dupont-Nivet, G., <b>Wolf, S. G.</b>, Shen, X. (2023) 
+												“Downstream propagation of fluvial erosion in Eastern Tibet”. <b>Earth and Planetary Science Letters</b>, 605, 118017, <a href=" https://doi.org/10.1029/2021JB023490">[doi]</a></li>
+											<li>Wolf, L., Huismans, R. S., <b>Wolf, S. G.</b>, Rouby, D., May, D. A. (2022) 
+												“Evolution of rift architecture and fault linkage during continental rifting: 
+												Investigating the effects of tectonics and surface processes using lithosphere-scale 3D coupled numerical models”. 
+												<b>JGR Solid Earth</b>, 127, e2022JB024687</li>
+											<li>Wolf, L., Huismans, R. S., Rouby, D., Gawthorpe, R. L., <b>Wolf, S. G.</b> (2022) 
+												“Links Between Faulting, Topography, and Sediment Production During Continental Rifting: Insights From Coupled Surface Process, Thermomechanical Modeling”. <b>JGR Solid Earth</b>, 127, 3, <a href=" https://doi.org/10.1029/2021JB023490">[doi]</a></li>
+											<li><b>Wolf, S. G.</b>, Huismans, R. S., Braun, J., Yuan, X. (2022). 
+												“Topographic Evolution of Mountain Belts Controlled by Rheology and Surface Process Efficiency”, <b>Nature</b>,</li>
+											<li>Yuan, X., Huppert, K., Braun, J., Shen, X., Liu-Zeng, J., Guerit, L., <b>Wolf, S. G.</b>, Zhang, J., Jolivet, M. (2022)
+												“Propagating uplift controls on high-elevation, low-relief landscape formation in Southeast Tibetan Plateau”. <b>Geology</b>, v. 50</li>
+											<li>Erdős, Z., Huismans, R. S., Faccenna, C., <b>Wolf, S. G. </b>(2021). 
+												“The role of subduction interface and upper plate strength on back-arc extension: application to Mediterranean back-arc basins”, <b>Tectonics</b>, 40, e2021TC006795</li>
+											<li><b>Wolf, S. G.</b>, Huismans, R. S., Muñoz, J.-A., Curry, M. E., van der Beek, P. (2021).
+												 “Growth of Collisional Orogens From Small and Cold to Large and Hot — Inferences From Geodynamic Models”. <b>JGR Solid Earth</b>, 126, e2020JB021168</li>
+											<li>Curry, M. E., van der Beek, P., Huismans, R. S., <b>Wolf, S. G.</b>, Fillon, C., Muñoz, J.-A. (2021). 
+												“Spatio-temporal patterns of Pyrenean exhumation revealed by inverse thermo-kinematic modeling of a large thermochronologic dataset”. <b>Geology</b>, v.49</li>
+											<li><b>Wolf, S. G.</b>, Huismans, R. S. (2019). “Mountain Building or Backarc Extension in Ocean-Continent Subduction Systems: A Function of Backarc Lithospheric Strength and Absolute Plate Velocities”. <b>JGR Solid Earth</b>, 124, 7, p.7461-7482.</li>
+											<li>Curry, M. E., van der Beek, P., Huismans, R. S., <b>Wolf, S. G.</b>, Muñoz, J.-A. (2019). 
+												“Evolving paleotopography and lithospheric flexure of the Pyrenean Orogen from 3D flexural modeling and basin analysis”, <b>Earth and Planetary Science Letters</b>, 515, p.26-37.</li>
+											</ul>									
+									</div>
+									<div class="col-12 col-12-xsmall">
+										<h4>Articles in preparation</h4>
+										<ul>
+											<li><b>Wolf, S.G.</b>, Braun, J., Huismans, R. S. “Periodic climatic variations during collisional orogenesis – insights from coupled tectonic-surface-process models”, in prep. for <b>JGR Solid Earth</b>, presented at EGU 2024</li>
+											<li><b>Wolf, S.G.</b>,  Huismans, R. S., May, D. A. "Subduction polarity and inherited weaknesses determine three-dimensional mountain belt architecture", in prep. for <b>Nature Communications</b>, anticipated presentation at EGU 2025</li>
+											<li>Theunissen, T., Huismans, R. S., Rouby, D., <b>Wolf, S. G.</b>, May, D. A. "Inheritance controls highly oblique segmented rifted passive margin formation", in prep. for <b>Science Advances</b>, presented at EGU 2024 and AGU 2023</li>
+										</ul>									
+									</div>
+							</div>
+						</section>
+
+						<!-- Four -->
+							<section id="five">
 								<div class="container">
-									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
+									<h3>Contact and Links</h3>
+									<a href="mailto:sebastian.wolf@uib.no">Email: sebastian (dot) wolf (at) uib (dot) no</a> <br>
+									<a href="CV/CV_Sebastian.pdf">CV</a> <br>
+									<a href="https://scholar.google.com/citations?user=kti5mt8AAAAJ&hl=en">Google Scholar</a> <br>
+									<a href="https://github.com/sebastianwolf">Github</a> <br>
+
+									<!-- <form method="post" action="#">
 										<div class="row gtr-uniform">
 											<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
 											<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
@@ -126,13 +208,13 @@
 												</ul>
 											</div>
 										</div>
-									</form>
+									</form> -->
 								</div>
 							</section>
 
 						<!-- Five -->
 						<!--
-							<section id="five">
+							<section id="six">
 								<div class="container">
 									<h3>Elements</h3>
 
@@ -467,7 +549,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 					<section id="footer">
 						<div class="container">
 							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+								<li>&copy; Sebastian Wolf. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</section>
